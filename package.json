@@ -1,6 +1,11 @@
 {
   "name": "sveltebox",
-  "version": "0.0.1",
+  "version": "0.0.4",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RyanParsley/sveltebox.git"
+  },
+  "homepage": "https://ryanparsley.github.io/sveltebox/",
   "scripts": {
     "dev": "vite dev",
     "build": "svelte-kit sync && svelte-package",
