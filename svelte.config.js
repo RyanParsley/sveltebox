@@ -13,7 +13,7 @@ const config = {
       fallback: null,
     }),
     paths: {
-      base: "/sveltebox/",
+      base: "/sveltebox",
     },
   }
 };
