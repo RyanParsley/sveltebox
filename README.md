@@ -1,19 +1,21 @@
-# create-svelte
+# SvelteBox
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+A collection of components to speed up development with svelte.
 
-## Creating a project
+This Project is meant to be used as a lib, so all the good bits are in the lib
+directory. The routes are only used for documentation.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Documentation
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Documentation is hosted via github pages at
+https://ryanparsley.github.io/sveltebox/.
 
-# create a new project in my-app
-npm create svelte@latest my-app
+### Update the docs
+
+``` Bash
+npm run build:docs
+npm run deploy
 ```
-
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
